@@ -1,3 +1,7 @@
+#
+# Conditional build:
+%bcond_without	tests	# do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Math
 %define	pnam	Spline
@@ -12,7 +16,7 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version
 # Source0-md5:	a9ebe29ba1794d1dca60aa0c44178197
 Patch0:		%{name}-man.patch
 BuildRequires:	perl-devel >= 5.6
-%if %{?_without_tests:0}%{!?_without_tests:1}
+%if %{with tests}
 BuildRequires:	perl-Math-Derivative
 %endif
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -40,7 +44,7 @@ eksportowania funkcji numerycznych albo, ³atwiej, jako klasa.
 	INSTALLDIRS=vendor
 %{__make}
 
-%{!?_without_tests:%{__make} test}
+%{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
