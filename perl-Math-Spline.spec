@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Math
 %define	pnam	Spline
-%include	/usr/lib/rpm/macros.perl
 Summary:	Math-Spline perl module
 Summary(pl):	Modu³ perla Math-Spline
 Name:		perl-Math-Spline
 Version:	0.01
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -24,7 +23,7 @@ Math-Spline perl module.
 Modu³ perla Math-Spline.
 
 %prep
-%setup -q -n Math-Spline-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 %patch -p0
 
 %build
