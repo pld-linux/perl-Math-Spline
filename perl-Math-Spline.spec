@@ -37,7 +37,7 @@ eksportowania funkcji numerycznych albo, ³atwiej, jako klasa.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %{!?_without_tests:%{__make} test}
