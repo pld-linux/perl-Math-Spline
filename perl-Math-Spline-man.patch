@@ -1,0 +1,8 @@
+--- Spline.pm~	Tue Dec 26 18:40:48 1995
++++ Spline.pm	Sun Oct 17 12:53:33 1999
+@@ -1,4 +1,5 @@
+ # $Id$
++
+ =head1 NAME
+ 
+     Math::Spline  - Cubic Spline Interpolation of data
