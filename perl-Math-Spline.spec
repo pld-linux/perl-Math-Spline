@@ -4,11 +4,11 @@ Summary(pl):	Modu³ perla Math-Spline
 Name:		perl-Math-Spline
 Version:	0.01
 Release:	3
-Copyright:	GPL
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Math/Math-Spline-%{version}.tar.gz
-Patch:		perl-Math-Spline-man.patch
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Math/Math-Spline-%{version}.tar.gz
+Patch0:		perl-Math-Spline-man.patch
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 BuildRequires:	perl-Math-Derivative
