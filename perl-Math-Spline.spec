@@ -1,8 +1,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Math
 %define	pnam	Spline
-Summary:	Math::Spline perl module
-Summary(pl):	Modu³ perla Math::Spline
+Summary:	Math::Spline - Cubic Spline Interpolation of data
 Name:		perl-Math-Spline
 Version:	0.01
 Release:	8
@@ -19,10 +18,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Math::Spline perl module.
-
-%description -l pl
-Modu³ perla Math::Spline.
+This package provides cubic spline interpolation of numeric data. The
+data is passed as references to two arrays containing the x and y
+ordinates. It may be used as an exporter of the numerical functions or,
+more easily as a class module.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
