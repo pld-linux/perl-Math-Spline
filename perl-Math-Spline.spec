@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Math
-%define	pnam	Spline
+%define		pdir	Math
+%define		pnam	Spline
 Summary:	Math::Spline - Cubic Spline Interpolation of data
 Summary(pl):	Math::Spline - interpolacja danych splajnami kubicznymi
 Name:		perl-Math-Spline
