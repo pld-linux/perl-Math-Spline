@@ -3,7 +3,7 @@ Summary:	Math-Spline perl module
 Summary(pl):	Modu³ perla Math-Spline
 Name:		perl-Math-Spline
 Version:	0.01
-Release:	5
+Release:	6
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
@@ -13,6 +13,7 @@ Patch0:		%{name}-man.patch
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.6
 BuildRequires:	perl-Math-Derivative
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
