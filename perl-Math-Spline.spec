@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Math
 %define	pnam	Spline
-Summary:	Math-Spline perl module
-Summary(pl):	Modu³ perla Math-Spline
+Summary:	Math::Spline perl module
+Summary(pl):	Modu³ perla Math::Spline
 Name:		perl-Math-Spline
 Version:	0.01
 Release:	8
@@ -17,10 +17,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Math-Spline perl module.
+Math::Spline perl module.
 
 %description -l pl
-Modu³ perla Math-Spline.
+Modu³ perla Math::Spline.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
