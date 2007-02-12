@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	Spline
 Summary:	Math::Spline - Cubic Spline Interpolation of data
-Summary(pl):	Math::Spline - interpolacja danych splajnami kubicznymi
+Summary(pl.UTF-8):   Math::Spline - interpolacja danych splajnami kubicznymi
 Name:		perl-Math-Spline
 Version:	0.01
 Release:	12
@@ -30,11 +30,11 @@ data is passed as references to two arrays containing the x and y
 ordinates. It may be used as an exporter of the numerical functions
 or, more easily as a class module.
 
-%description -l pl
-Ten pakiet udostêpnia interpolacjê danych numerycznych przy pomocy
-splajnów kubicznych. Dane s± przekazywane jako referencje do dwóch
-tablic zawieraj±cych wspó³rzêdne x i y. Modu³ mo¿e byæ u¿ywany do
-eksportowania funkcji numerycznych albo, ³atwiej, jako klasa.
+%description -l pl.UTF-8
+Ten pakiet udostÄ™pnia interpolacjÄ™ danych numerycznych przy pomocy
+splajnÃ³w kubicznych. Dane sÄ… przekazywane jako referencje do dwÃ³ch
+tablic zawierajÄ…cych wspÃ³Å‚rzÄ™dne x i y. ModuÅ‚ moÅ¼e byÄ‡ uÅ¼ywany do
+eksportowania funkcji numerycznych albo, Å‚atwiej, jako klasa.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
