@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	Spline
 Summary:	Math::Spline - Cubic Spline Interpolation of data
-Summary(pl.UTF-8):   Math::Spline - interpolacja danych splajnami kubicznymi
+Summary(pl.UTF-8):	Math::Spline - interpolacja danych splajnami kubicznymi
 Name:		perl-Math-Spline
 Version:	0.01
 Release:	12
