@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Math
 %define		pnam	Spline
+%include	/usr/lib/rpm/macros.perl
 Summary:	Math::Spline - Cubic Spline Interpolation of data
 Summary(pl.UTF-8):	Math::Spline - interpolacja danych splajnami kubicznymi
 Name:		perl-Math-Spline
@@ -16,11 +16,12 @@ Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	a9ebe29ba1794d1dca60aa0c44178197
 Patch0:		%{name}-man.patch
+URL:		http://search.cpan.org/dist/Math-Spline/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-Math-Derivative
 %endif
-BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
