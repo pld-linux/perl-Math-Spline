@@ -4,7 +4,6 @@
 
 %define		pdir	Math
 %define		pnam	Spline
-%include	/usr/lib/rpm/macros.perl
 Summary:	Math::Spline - Cubic Spline Interpolation of data
 Summary(pl.UTF-8):	Math::Spline - interpolacja danych splajnami kubicznymi
 Name:		perl-Math-Spline
