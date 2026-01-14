@@ -8,7 +8,7 @@ Summary:	Math::Spline - Cubic Spline Interpolation of data
 Summary(pl.UTF-8):	Math::Spline - interpolacja danych splajnami kubicznymi
 Name:		perl-Math-Spline
 Version:	0.01
-Release:	13
+Release:	14
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
